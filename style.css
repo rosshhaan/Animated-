@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+#main{
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 6vw 10vw;
+}
+
+.navi a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+#nav #Centeratag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+#hero{
+    margin-top: 12vw;
+    padding: 0 100px;
+    width: 100%;;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sustain{
+    width: 15vw;
+}
+
+#sustain p{
+    text-transform: capitalize;
+    line-height: 1;
+    font-size: 12px;
+    margin: 7px 0;
+}
+
+#sustain #susimage{
+    width: 100%;
+    height: 24vw;
+}
+
+#sustain #susimage img{
+    width: 100%;
+    height: 100%;
+}
+
+#equilibrium{
+    position: relative;
+    width: 25vw;
+    min-height: 35vw;
+}
+
+#equilibrium h1{
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 4vw;
+}
+
+#equilibrium #heading{
+    top: -16%;
+    left: -20%;
+    position: absolute;
+}
+
+#equilibrium img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#equilibrium p{
+    font-size: 1.2vw;
+    width: 50%;
+}
+
+#imgntext{
+    width: fit-content;
+    height: fit-content;
+}
+
+#visit{
+    display: flex;
+    align-items: center;
+
+}
+
+#circlev{
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid grey;
+    border-radius: 50px;
+}
+
+#circlev i{
+    color: grey;
+}
+
+#motive{
+    display: flex;
+    justify-content: space-between;
+    margin: 10vw 0;
+    padding: 0vw 10vw;
+}
+
+#motive p{
+    width: 80%;
+    font-size: 1.2vw;
+    line-height: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#motive span{
+    display: inline-block;
+    border-radius: 100px;
+    margin: 0 10px;
+    margin-bottom: -12.5px;
+}
+
+#one{
+    width: 80px;
+    height: 40px;
+    background-image: url(https://images.pexels.com/photos/6590699/pexels-photo-6590699.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-size: cover;
+    background-position: center;
+}
+
+#two{
+    width: 100px;
+    height: 40px;
+    background-image: url(https://images.pexels.com/photos/12879014/pexels-photo-12879014.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-size: cover;
+    background-position: center;
+}
+
+#three{
+    width: 80px;
+    height: 40px;
+    background-image: url(https://images.pexels.com/photos/16948299/pexels-photo-16948299/free-photo-of-close-up-of-pink-flowers.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-size: cover;
+    background-position: center;
+}
+
+#pictures{
+    display: flex;
+    gap: 20vw;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+}
+
+#picimg-a{
+    width: 20vw;
+}
+#picimg-a p{
+    text-transform: capitalize;
+}
+
+#picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#picimg-a #picimg{
+    width: 100%;
+    height: 30vw;
+    margin-bottom: 1vw;
+}
+
+#picimg-b{
+    width: 30vw;
+}
+
+#picimage img{
+    width: 100%;
+    height: 40vw;
+    margin-bottom: 1vw;
+}
+
+#picimg-b h1{
+    text-align: right;
+}
+
+#picimg-b p{
+    text-transform: capitalize;
+    text-align: right;
+}
+
+#banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+}
+
+#bimg{
+    width: 60%;
+    height: 70vh;
+}
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#btext{
+    width: 40%;
+    padding: 0 2vw;
+}
+
+#future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+#future video{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+    background-color: white;
+    padding: 1vw 2vw;
+    border-radius: 20px;
+}
+
+#ftext button{
+    padding: 1vw 1.3vw;
+    font-size: 1vw;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 100px;
+    background-color: white;
+}
